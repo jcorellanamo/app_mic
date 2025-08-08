@@ -1,1 +1,8 @@
-# app_mic
+# WINCENTCAR MIC → Excel (Streamlit)
+
+## Local
+```bash
+python -m venv venv
+source venv/bin/activate   # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+streamlit run app.py
