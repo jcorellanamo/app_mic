@@ -1,0 +1,28 @@
+# Entornos virtuales y dependencias compiladas
+venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos y carpetas de build locales
+build/
+dist/
+*.egg-info/
+
+# Archivos y logs temporales
+*.log
+*.tmp
+
+# Configuraciones locales y sensibles
+.env
+.secrets.toml
+.streamlit/secrets.toml
+
+# Archivos de control de versiones
+.git
+.gitignore
+
+# Otros archivos innecesarios para producción
+.DS_Store
+Thumbs.db
